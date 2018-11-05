@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+/* header card */
+.background {
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.tag {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+  top: 46%;
+  left: 15%;
+  letter-spacing: 15px
+}
+
+.left {
+  width: 50vw;
+  float: left;
+  background-color: #000;
+  height: 100vh;
+  transform-origin: top;
+}
+
+.right {
+  width: 50vw;
+  float: right;
+  background-color: #b88038;
+  height: 100vh;
+  transform-origin: bottom;
+}
+
+.cardLeft {
+  position: absolute;
+  width: 200px;
+  background-color: #b88038;
+  height: 400px;
+}
+
+.cardXL {
+  width: 400px;
+  height: 400px;
+  z-index: 5;
+  -webkit-box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 1);
+  position: absolute;
+  left: 50%;
+  background-color: #000;
+  transform: translateX(-50%);
+  object-fit: cover;
+  top: 25%;
+}
+
+.lion {
+  width: 500px;
+  /* top: px; */
+  position: absolute;
+  left: -55px;
+}
+
+/* livre */
+.header {
+  height: 500px;
+}
+
+.flyers {
+  width: 250px;
+  height: 350px;
+  background-color: #3d707f;
+  position: relative;
+  left: 55%;
+  margin-top: 200px;
+  transform: translate(-50%, -50%);
+  perspecive: 1000px;
+  border: 5px solid grey;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #3d707f;
+  transform: rotateY(20deg);
+  transform-style: preserve-3d;
+  transform-origin: left;
+  transition: all .5s ease-in;
+  border: 1px solid grey;
+}
+
+.fall {
+  transform: rotateY(-180deg);
+}
+
+figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-color: #3d707f;
+  /* border: 5px solid grey; */
+  width: 265px;
+}
+
+.back {
+  background-color: #3d707f;
+  transform: rotateY(180deg);
+  border: 1px solid grey;
+}
+
+.img-container {
+  margin-top: 125px;
+}
+
+.book2, .book1 {
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.book2 {
+  margin-top: 150px;
+}
+
+#dream, #moon {
+  margin-top: 100px;
+  width: 100%;
+}
+
+#moon {
+  margin-top: 20px;
+}
+
+/* card */
+p {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+#card-container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.card {
+  margin-left: 10px;
+  background-color: #fff;
+  width: 300px;
+  height: 400px;
+  // border: 1px solid rgb(179, 179, 179);
+  opacity: 0;
+  -webkit-box-shadow: 10px 10px 14px -7px rgba(171, 162, 171, 1);
+  -moz-box-shadow: 10px 10px 14px -7px rgba(171, 162, 171, 1);
+  box-shadow: 10px 10px 14px -7px rgba(171, 162, 171, 1);
+  margin-top: 200px;
+}
+
+/* licorne */
+.zoom {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* margin-top: 550px; */
+  width: 100%;
+}
+
+.inner-img {
+  position: absolute;
+  object-fit: cover;
+  z-index: 2;
+  width: 431px;
+  height: 522px;
+  background-color: pink;
+  top: 388px;
+}
+
+.titleContent {
+  position: absolute;
+  top: 32%;
+  left: 59%;
+  z-index: 5;
+}
+
+.boldTitle {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #000;
+  width: 355px;
+  height: 250px;
+  font-weight: 1000;
+  line-height: 2;
+}
+
+.image-container {
+  width: 641px;
+  height: 748px;
+  border: 18px solid turquoise;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.describe {
+  position: absolute;
+  width: 250px;
+  height: 500px;
+  left: 60%;
+  background-color: #fff;
+  margin-left: 93px;
+}
+
+.text {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 132px;
+  font-family: sans-serif;
+}
+
+.licorne {
+  max-width: 450px;
+  max-height: 600px;
+  margin-top: 225px;
+  z-index: 5;
+}
+
+/* suite logo */
+.show {
+  width: 960px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 250px;
+  position: relative;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.square-container {
+  width: 960px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.logo-img {
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  /* filter: grayscale(100%); */
+}
