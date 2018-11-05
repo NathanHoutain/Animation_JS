@@ -14,14 +14,14 @@ section {
 }
 
 .tag {
-  font-size: 50px;
+  font-size: 3.125em;
   color: #fff;
   text-align: center;
   z-index: 10;
   position: absolute;
-  top: 46%;
+  top: 50%;
   left: 15%;
-  letter-spacing: 15px
+  letter-spacing: 0.30em;
 }
 
 .left {
@@ -42,20 +42,20 @@ section {
 
 .cardLeft {
   position: absolute;
-  width: 200px;
+  width: 12.5em;
   background-color: #b88038;
-  height: 400px;
+  height: 25em;
 }
 
 .cardXL {
-  width: 400px;
-  height: 400px;
+  width: 25em;
+  height: 25em;
   z-index: 5;
   -webkit-box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 1);
   -moz-box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 1);
   box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 1);
   position: absolute;
-  left: 50%;
+  left: 50.55%;
   background-color: #000;
   transform: translateX(-50%);
   object-fit: cover;
@@ -63,10 +63,10 @@ section {
 }
 
 .lion {
-  width: 500px;
+  width: 31.25em;
   /* top: px; */
   position: absolute;
-  left: -55px;
+  left: -3.4375em;
 }
 
 /* livre */
