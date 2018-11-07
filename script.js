@@ -53,7 +53,7 @@ licorneAnimation
 .from('.boldTitle',1,{opacity:0,y:150})
 .from('.text',1,{opacity:0,x:-150},'-=0.5')
 .from('.inner-img',0.5,{height:0, delay:-0.5,x:-150})
-.from('.licorne',0.5,{height:0, delay:-0.5,x:-150, y:-150});
+.from('.licorne',1.5,{opacity:0, delay:-0.5, transformOrigin: "50% 50%", scaleX:0.2, scaleY:0.2});
 
 var licorne = new ScrollMagic.Scene({
     triggerElement:'.titleContent',
